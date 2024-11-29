@@ -21,7 +21,7 @@ foreground = '#dcd7ba'
 
 [window]
 title = ""
-opacity = 0.95
+opacity = 0.8
 blur = true
 
 [colors.normal]
