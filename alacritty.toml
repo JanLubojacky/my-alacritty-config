@@ -21,7 +21,7 @@ foreground = '#dcd7ba'
 
 [window]
 title = ""
-opacity = 0.8
+opacity = 0.95
 blur = true
 
 [colors.normal]
@@ -55,3 +55,9 @@ color = '#ffa066'
 [[colors.indexed_colors]]
 index = 17
 color = '#ff5d62'
+
+[keyboard]
+bindings = [
+  { key = "T", mods = "Control", action = "CreateNewWindow" },
+  { key = "W", mods = "Control", action = "Quit" },
+]
